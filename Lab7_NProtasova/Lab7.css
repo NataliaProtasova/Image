@@ -1,0 +1,67 @@
+.container {
+    margin: 0 auto;
+    width: 800px;
+}
+
+#pics li {
+    display:inline;
+}
+
+.album {
+}
+.scroll {
+    bottom: 200px;
+    width: 400px;
+    overflow-x: scroll;
+    white-space: nowrap;
+/*    z-index: 10;*/
+}
+
+.scroll li {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.scroll li:hover {
+    background-color: #777;
+}
+
+img.images {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+img.images:active, img.images:focus{
+   border:2px solid #555;
+}
+
+.viewer {
+    position: relative;
+    transition: .5s ease;
+    opacity: 1;
+}
+.viewer:hover {
+    transition: .5s ease;
+    opacity: 0.3;
+}
+
+.rotate-left {
+   -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+     transform: rotate(-90deg);
+}
+
+.rotate-right {
+   -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+     transform: rotate(90deg);
+}
+
+
+
+
